@@ -1,0 +1,31 @@
+{
+  "name": "mediatecapp-vercel",
+  "version": "0.0.8",
+  "description": null,
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "now:deploy": "now"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devoscarmesa/api-fake-mediatecapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devoscarmesa/api-fake-mediatecapp/issues"
+  },
+  "homepage": "https://github.com/devoscarmesa/api-fake-mediatecapp#readme",
+  "dependencies": {
+    "json-server": "^0.16.2",
+    "vercel": "^20.1.2"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.0"
+  }
+}
