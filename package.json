@@ -1,13 +1,10 @@
 {
-  "name": "mediatecapp-vercel",
-  "version": "0.0.8",
-  "description": null,
+  "name": "api-fake-mediatecapp",
+  "version": "1.0.0",
+  "description": "Esta aplicación es una api-fake que se desarrolla para poder extraer datos de un BackEnd y de esta manera lograr la implementación de los servicios que se exponen desde este componente y puedan ser consumidos a través de fetch en el FrontEnd",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
     "now:deploy": "now"
   },
   "repository": {
@@ -24,8 +21,5 @@
   "dependencies": {
     "json-server": "^0.16.2",
     "vercel": "^20.1.2"
-  },
-  "devDependencies": {
-    "react-scripts": "1.0.0"
   }
 }
